@@ -1,0 +1,29 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: #3db7d3;
+}
+
+.container {
+  max-width: 400px;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #e2edf2;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.todos li {
+  background:#21b2d3;
+}
+
+.delete {
+  cursor: pointer;
+  color: rgb(255, 230, 0);
+}
+
+.filtered {
+    display : none !important;
+}
